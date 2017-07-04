@@ -1,0 +1,24 @@
+﻿Build started 14.06.2017 11:57:28.
+     1>Project "C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\RunningPepe\RunningPepe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio 2013 Community\VC\bin\CL.exe /c /I"C:\SDL2_mixer-devel-2.0.1-VC\SDL2_mixer-2.0.1\include" /I"C:\SDL2_ttf-2.0.14\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LTexture.cpp Scena.cpp
+         Scena.cpp
+     1>c:\users\arek\documents\visual studio 2013\projects\runningpepe\runningpepe\scena.cpp(124): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         LTexture.cpp
+     1>c:\users\arek\documents\visual studio 2013\projects\runningpepe\runningpepe\ltexture.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\arek\documents\visual studio 2013\projects\runningpepe\runningpepe\ltexture.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\arek\documents\visual studio 2013\projects\runningpepe\runningpepe\ltexture.cpp(128): warning C4715: 'LTexture::loadFromRenderedText' : not all control paths return a value
+       Link:
+         E:\Visual Studio 2013 Community\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\Debug\RunningPepe.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDL2_mixer-devel-2.0.1-VC\SDL2_mixer-2.0.1\lib\x86" /LIBPATH:"C:\SDL2_ttf-2.0.14\lib\x86" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\Debug\RunningPepe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\Debug\RunningPepe.lib" /MACHINE:X86 Debug\cCharacter.obj
+         Debug\cClouds.obj
+         Debug\Funkcje.obj
+         Debug\LTexture.obj
+         Debug\Scena.obj
+         Debug\Source.obj
+         RunningPepe.vcxproj -> C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\Debug\RunningPepe.exe
+     1>Done Building Project "C:\Users\Arek\Documents\Visual Studio 2013\Projects\RunningPepe\RunningPepe\RunningPepe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99
